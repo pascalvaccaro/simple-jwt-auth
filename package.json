@@ -19,6 +19,7 @@
   "scripts": {
     "client": "yarn --cwd client start",
     "server": "nodemon index.js",
-    "start": "concurrently \"yarn client\" \"yarn server\""
+    "start": "concurrently \"yarn client\" \"yarn server\"",
+    "postinstall": "cd client && yarn && cd ../"
   }
 }
