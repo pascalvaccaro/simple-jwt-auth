@@ -1,0 +1,7 @@
+.App {
+  min-height: 100vh;
+  max-width: 620px;
+}
+.error {
+  color: red;
+}
